@@ -1,0 +1,38 @@
+{
+  "name": "omnistock-backend",
+  "version": "1.0.0",
+  "description": "Middleware de stock omnicanal - Sistema SaaS para sincronización de inventario entre múltiples canales",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/utils/seed.js"
+  },
+  "keywords": [
+    "omnichannel",
+    "inventory",
+    "stock",
+    "middleware",
+    "saas"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "morgan": "^1.10.0",
+    "@faker-js/faker": "^8.3.1",
+    "express-validator": "^7.0.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "node-cron": "^3.0.3",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
+
